@@ -115,75 +115,75 @@ function askFirstQuestion() {
   isFirst = false;
 }
 
-// askFirstQuestion();
+askFirstQuestion();
 
-let dummyData = [
-  {
-    employeeRole: 'Manager',
-    employeeName: 'a',
-    employeeId: 'a',
-    employeeEmail: 'a',
-    officeNumber: 'a'
-  },
-  {
-    employeeRole: 'Manager',
-    employeeName: 'a',
-    employeeId: 'a',
-    employeeEmail: 'a',
-    officeNumber: 'a'
-  },
-  {
-    employeeRole: 'Engineer',
-    employeeName: 'b',
-    employeeId: 'b',
-    employeeEmail: 'b',
-    github: 'b'
-  },
-  {
-    employeeRole: 'Manager',
-    employeeName: 'b',
-    employeeId: 'b',
-    employeeEmail: 'b',
-    officeNumber: 'b'
-  },
-  {
-    employeeRole: 'Intern',
-    employeeName: 'c',
-    employeeId: 'c',
-    employeeEmail: 'c',
-    school: 'c'
-  },
-  {
-    employeeRole: 'Intern',
-    employeeName: 'd',
-    employeeId: 'd',
-    employeeEmail: 'd',
-    school: 'd'
-  },
-  {
-    employeeRole: 'Engineer',
-    employeeName: 'd',
-    employeeId: 'd',
-    employeeEmail: 'd',
-    github: 'd'
-  },
-  {
-    employeeRole: 'Intern',
-    employeeName: 'e',
-    employeeId: 'e',
-    employeeEmail: 'e',
-    school: 'e'
-  },
-  {
-    employeeRole: 'Engineer',
-    employeeName: 'f',
-    employeeId: 'f',
-    employeeEmail: 'f',
-    github: 'f'
-  }
-];
-const compiledTemplate = handlebarsTemplate({
-  answers: dummyData
-});
-fs.writeFileSync('./dist/index.html', compiledTemplate);
+// let dummyData = [
+//   {
+//     employeeRole: 'Manager',
+//     employeeName: 'a',
+//     employeeId: 'a',
+//     employeeEmail: 'a',
+//     officeNumber: 'a'
+//   },
+//   {
+//     employeeRole: 'Manager',
+//     employeeName: 'a',
+//     employeeId: 'a',
+//     employeeEmail: 'a',
+//     officeNumber: 'a'
+//   },
+//   {
+//     employeeRole: 'Engineer',
+//     employeeName: 'b',
+//     employeeId: 'b',
+//     employeeEmail: 'b',
+//     github: 'b'
+//   },
+//   {
+//     employeeRole: 'Manager',
+//     employeeName: 'b',
+//     employeeId: 'b',
+//     employeeEmail: 'b',
+//     officeNumber: 'b'
+//   },
+//   {
+//     employeeRole: 'Intern',
+//     employeeName: 'c',
+//     employeeId: 'c',
+//     employeeEmail: 'c',
+//     school: 'c'
+//   },
+//   {
+//     employeeRole: 'Intern',
+//     employeeName: 'd',
+//     employeeId: 'd',
+//     employeeEmail: 'd',
+//     school: 'd'
+//   },
+//   {
+//     employeeRole: 'Engineer',
+//     employeeName: 'd',
+//     employeeId: 'd',
+//     employeeEmail: 'd',
+//     github: 'cefaust'
+//   },
+//   {
+//     employeeRole: 'Intern',
+//     employeeName: 'e',
+//     employeeId: 'e',
+//     employeeEmail: 'e',
+//     school: 'e'
+//   },
+//   {
+//     employeeRole: 'Engineer',
+//     employeeName: 'f',
+//     employeeId: 'f',
+//     employeeEmail: 'f',
+//     github: 'f'
+//   }
+// ];
+// const compiledTemplate = handlebarsTemplate({
+//   answers: dummyData
+// });
+// fs.writeFileSync('./dist/index.html', compiledTemplate);
 
